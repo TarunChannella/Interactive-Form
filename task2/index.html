@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassmorphism Interactive Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-wrapper">
+        <h2 class="form-title">Join Us Today</h2>
+        <form id="interactive-form" novalidate>
+            <div class="input-group">
+                <input type="text" id="name" name="name" class="input-field" placeholder=" " required>
+                <label for="name" class="input-label">Full Name</label>
+                <i class="validation-icon"></i>
+                <small class="error-message"></small>
+            </div>
+
+            <div class="input-group">
+                <input type="email" id="email" name="email" class="input-field" placeholder=" " required>
+                <label for="email" class="input-label">Email Address</label>
+                 <i class="validation-icon"></i>
+                <small class="error-message"></small>
+            </div>
+            
+            <div class="input-group">
+                <input type="tel" id="phone" name="phone" class="input-field" placeholder=" " required>
+                <label for="phone" class="input-label">Phone Number</label>
+                <i class="validation-icon"></i>
+                <small class="error-message"></small>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" name="password" class="input-field" placeholder=" " required>
+                <label for="password" class="input-label">Password</label>
+                <i class="validation-icon"></i>
+                <div class="password-strength">
+                    <div id="strength-bar" class="strength-bar"></div>
+                </div>
+                <small class="error-message" id="password-error"></small>
+            </div>
+
+            <button type="submit" class="submit-btn">Create Account</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
