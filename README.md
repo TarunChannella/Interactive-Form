@@ -1,4 +1,3 @@
-# Interactive-Form
 # Interactive Registration Form (Glassmorphism Design)
 
 This project is a visually attractive and highly interactive user registration form. [cite_start]It was developed to fulfill the requirements of the Level 1, Task 2 for the Codveda Front-End Development Internship[cite: 30, 40]. The form features a modern "glassmorphism" design, real-time validation, and an intuitive user experience with animated feedback.
@@ -10,11 +9,11 @@ This project is a visually attractive and highly interactive user registration f
 This project successfully implements all the required objectives for the task:
 
 * **Floating Labels:** Modern UI pattern where labels float above the input field on focus for a clean look.
-* [cite_start]**Real-Time Validation:** Input fields for name, email, phone, and password are validated as the user types, providing instant feedback without a page reload[cite: 41, 46].
-* [cite_start]**Dynamic Error & Success Messages:** Visual cues (icons and colored borders) appear instantly to show if the input is valid or not[cite: 43].
-* [cite_start]**Password Strength Meter:** A visual bar that updates in real-time to show the strength of the user's password[cite: 45].
-* [cite_start]**Enhanced UX with Focus Events:** The form utilizes focus and blur events to create a smooth and professional user experience[cite: 47].
-* [cite_start]**Clean & Professional Styling:** The project features a modern, responsive, and visually appealing design styled from scratch[cite: 48, 49].
+* **Real-Time Validation:** Input fields for name, email, phone, and password are validated as the user types, providing instant feedback without a page reload[cite: 41, 46].
+* **Dynamic Error & Success Messages:** Visual cues (icons and colored borders) appear instantly to show if the input is valid or not[cite: 43].
+* **Password Strength Meter:** A visual bar that updates in real-time to show the strength of the user's password[cite: 45].
+* **Enhanced UX with Focus Events:** The form utilizes focus and blur events to create a smooth and professional user experience[cite: 47].
+* **Clean & Professional Styling:** The project features a modern, responsive, and visually appealing design styled from scratch[cite: 48, 49].
 
 ## 🛠️ Technologies Used
 
