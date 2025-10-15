@@ -9,7 +9,7 @@ This project is a visually attractive and highly interactive user registration f
 This project successfully implements all the required objectives for the task:
 
 * **Floating Labels:** Modern UI pattern where labels float above the input field on focus for a clean look.
-* **Real-Time Validation:** Input fields for name, email, phone, and password are validated as the user types, providing instant feedback without a page reload.
+* **Real-Time Validation:** Input fields for name, email, phone, and password are validated as the user types, providing instant feedback without a page reload .
 * **Dynamic Error & Success Messages:** Visual cues (icons and colored borders) appear instantly to show if the input is valid or not.
 * **Password Strength Meter:** A visual bar that updates in real-time to show the strength of the user's password.
 * **Enhanced UX with Focus Events:** The form utilizes focus and blur events to create a smooth and professional user experience.
